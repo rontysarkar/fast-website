@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+
+}
+#main{
+    height: 100vh;
+    background-color: rgb(132, 221, 191);
+}
+#flag{
+    
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+#flag-cikel{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    border-radius: 100px;
+
+}
+#fot{
+    height: 120px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    top: 90%;
+    border-top-right-radius: 10px;
+
+
+
+}
+#foter{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+    left: 5px;
+    transform: translate(-50%);
+}
